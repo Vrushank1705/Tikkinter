@@ -14,9 +14,9 @@ root.geometry('600x600')
 root.title('Survey')
 root.resizable(width=False, height=False)
 root['bg'] = "white"
-
 label = Label(root, text='Are you gay?', font=('Arial', 10), bg='white')
 label.pack()
+
 
 btnYes = Button(root, text='No', font=('Arial', 30, 'bold'))
 btnYes.place(x=170, y=100)
